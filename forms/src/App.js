@@ -32,13 +32,13 @@ const removeFields = (index) => {
              return(
       <div key={index}>
                <input name='name'
-                placeholder='name'
+                placeholder='Name'
                  value={input.name}
                  onChange={event=>handleFormChange(index,event)}
                  
                  />
                <input name='age' 
-               placeholder='age' 
+               placeholder='Age' 
                value={input.age}
                onChange={event=>handleFormChange(index,event)}
                />
